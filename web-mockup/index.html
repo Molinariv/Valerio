@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup Piattaforma B2B</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">B2B Mockup</div>
+        <ul class="menu">
+            <li>Dashboard</li>
+            <li>Prodotti</li>
+            <li>Ordini</li>
+            <li>Clienti</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Catalogo Prodotti</h1>
+        <input type="text" id="search" placeholder="Ricerca prodotti..." />
+        <table id="product-table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Prezzo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Prodotto A</td>
+                    <td>Categoria 1</td>
+                    <td>25 €</td>
+                </tr>
+                <tr>
+                    <td>Prodotto B</td>
+                    <td>Categoria 2</td>
+                    <td>40 €</td>
+                </tr>
+                <tr>
+                    <td>Prodotto C</td>
+                    <td>Categoria 1</td>
+                    <td>55 €</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
